@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color:#FFD700;
+    padding-top: 80px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #000;
+    border-bottom: 5px solid #FFD700;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px #FFD700;
+}
+.logo img {
+    height: 100px;
+}
+.restaurant-name {
+    font-size: 24px;
+    color: #FFD700;
+}

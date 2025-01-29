@@ -1,0 +1,200 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color:#FFD700;
+    padding-top: 80px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #000;
+    border-bottom: 5px solid #FFD700;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px #FFD700;
+}
+.logo img {
+    height: 100px;
+}
+.restaurant-name {
+    font-size: 24px;
+    color: #FFD700;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    margin-right: 80px;
+}
+.navbar a {
+    text-decoration-style: none;
+    color: #FFD700;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+.navbar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: #FFD700;
+    transition: width 0.3s ease;
+}
+.navbar a:hover::after {
+    width: 100%;
+}
+
+.navbar a:hover {
+    color: #fff;
+}
+
+.drinks-description {
+    background-color: #111;  
+    color: #FFD700;        
+    font-family: 'Poppins', sans-serif;  
+    padding: 40px 20px;
+    margin-top: 100px;  
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.drinks-description p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.drinks-description p:first-of-type {
+    font-size: 20px;  
+    font-weight: bold;  
+}
+
+.drinks-description p:last-of-type {
+    font-style: italic;  
+}
+
+.drinks-description p:hover {
+    color: #fff; 
+    transition: color 0.3s ease;
+}
+.drinks-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+}
+
+.menu-category {
+    width: 45%;
+    
+}
+.menu-category h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #FFD700;
+    position: relative;
+}
+
+.menu-category h2::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 3px;
+    background-color: #FFD700;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+
+.category-divider {
+    border: 1px solid #FFD700;
+    margin: 40px 0;
+    opacity: 0.5;
+    box-shadow:10px 10px 10px  #FFD700;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 350px;
+    perspective: 1000px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px #FFD700;
+    border-radius: 10px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+    box-shadow: inset 0 4px 8px #FFD700 ;
+}
+
+.flip-card-front {
+    background-color: #111;
+    color: #FFD700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flip-card-front img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.flip-card-back {
+    background-color: #FFD700;
+    color: #111;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flip-card-back ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #111;
+}
+
+.flip-card-back ul li {
+    margin-bottom: 5px;
+    font-size: 16px;
+}

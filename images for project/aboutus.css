@@ -1,28 +1,75 @@
 body {
+    font-family: 'Poppins', sans-serif;
     margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #000;
-    color:#FFD700;
-    padding-top: 80px;
+    padding: 0;
+    background-color:#a76a1be6;
+    color: rgb(150, 0, 0)(224, 47, 47);
 }
 
 header {
+    text-align: center;
+    background-color: rgb(150, 0, 0)(224, 47, 47);
+    color: gold;
+    padding: 40px;
+}
+header h1 {
+    font-size: 10em;  
+    font-style: italic;  
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 1.5em;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration:wavy;
+    color: gold;
+    font-weight: bold;
+}
+
+.about-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 50px;
-    background-color: #000;
-    border-bottom: 5px solid #FFD700;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    box-shadow: 0 4px 6px #FFD700;
+    padding: 50px;
+    max-width: 2000px;
+    margin: auto;
+    background-color: white
 }
-.logo img {
-    height: 100px;
+
+.about-text h2 {
+    font-size: 3em;
+    font-weight: 700;
+    color: black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+    padding-bottom: 10px;
 }
-.restaurant-name {
-    font-size: 24px;
-    color: #FFD700;
+
+.about-text h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background-color: gold;
+}
+.about-text p {
+    font-size: 1.5em; 
+    line-height: 1.8;
+}
+.about-image img {
+    width: 250px;
+    height: auto;
+    border-radius: 90px;
 }

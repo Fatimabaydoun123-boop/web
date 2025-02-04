@@ -2,8 +2,8 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #000;
-    color:#d4af37;
+    background-color:white;
+    color:gold;
     padding-top: 80px;
 }
 header {
@@ -11,20 +11,21 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px 50px;
-    background-color: #000;
-    border-bottom: 5px solid #d4af37;
+    background-color:#685615e6;
+    border-bottom: 5px solid gold;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 4px 6px #d4af37;
+    box-shadow: 0 4px 6px gold;
 }
 .logo img {
-    height: 100px;
+    height: 90px;
+    border-radius: 55px;
 }
 .restaurant-name {
     font-size: 24px;
-    color: #d4af37;
+    color: gold;
 }
 .navbar ul {
     list-style: none;
@@ -35,7 +36,7 @@ header {
 }
 .navbar a {
     text-decoration-style: none;
-    color: #d4af37;
+    color: gold;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
@@ -51,7 +52,7 @@ header {
     bottom: -5px;
     width: 0;
     height: 2px;
-    background-color: #d4af37;
+    background-color: gold;
     transition: width 0.3s ease;
 }
 .navbar a:hover::after {
@@ -63,8 +64,8 @@ header {
 }
 
 .drinks-description {
-    background-color: #111;  
-    color: #d4af37;        
+    background-color:#a76a1be6;  
+    color: rgb(150, 0, 0)(224, 47, 47);        
     font-family: 'Poppins', sans-serif;  
     padding: 40px 20px;
     margin-top: 100px;  
@@ -106,7 +107,7 @@ header {
 .menu-category h2 {
     font-size: 28px;
     text-align: center;
-    color: #d4af37;
+    color: gold;
     position: relative;
 }
 
@@ -118,15 +119,15 @@ header {
     transform: translateX(-50%);
     width: 80%;
     height: 3px;
-    background-color: #d4af37;
-    box-shadow: 0 0 10px rgba(212, 175, 55, 0.8);
+    background-color: gold;
+    box-shadow: 0 0 10px gold;
 }
 
 .category-divider {
-    border: 1px solid #d4af37;
+    border: 1px solid gold;
     margin: 40px 0;
     opacity: 0.5;
-    box-shadow:10px 10px 10px  #d4af37;
+    box-shadow:10px 10px 10px  gold;
 }
 
 .flip-card {
@@ -135,7 +136,7 @@ header {
     height: 350px;
     perspective: 1000px;
     margin: 20px auto;
-    box-shadow: 0 4px 8px #d4af37;
+    box-shadow: 0 4px 8px gold;
     border-radius: 10px;
 }
 
@@ -157,14 +158,14 @@ header {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    border: 2px solid #d4af37;
+    border: 2px solid gold;
     border-radius: 10px;
-    box-shadow: inset 0 4px 8px #d4af37 ;
+    box-shadow: inset 0 4px 8px gold ;
 }
 
 .flip-card-front {
-    background-color: #111;
-    color: #d4af37;
+    background-color:rgb(150, 0, 0);
+    color: gold;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,8 +181,8 @@ header {
 }
 
 .flip-card-back {
-    background-color: #d4af37;
-    color: #111;
+    background-color: rgb(150, 0, 0);
+    color: gold;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -191,7 +192,7 @@ header {
 .flip-card-back ul {
     list-style-type: disc;
     padding-left: 20px;
-    color: #111;
+    color:gold;
 }
 
 .flip-card-back ul li {
@@ -200,8 +201,8 @@ header {
 }
 
 footer {
-    background-color: #d4af37; /* Gold background */
-    color: black;
+    background-color: #685615e6; /* Gold background */
+    color: gold;
     text-align: center;
     padding: 20px 0;
 }
@@ -220,7 +221,7 @@ footer {
     margin-bottom: 10px;
 }
 .footer-section a {
-    color: black;
+    color: gold;
     text-decoration: none;
     font-weight: bold;
 }

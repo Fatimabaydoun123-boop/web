@@ -82,7 +82,7 @@ nav ul li a {
     width:1500px;
 }
 .about-image-in{
-    animation: float 1.2s ease-in-out infinite;
+    animation: float 1.3s ease-in-out infinite;
 }
 
 @keyframes float{

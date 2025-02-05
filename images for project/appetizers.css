@@ -21,6 +21,7 @@ header {
 }
 .logo img {
     height: 100px;
+     border-radius: 55 px;
 }
 .restaurant-name {
     font-size: 24px;
@@ -109,9 +110,18 @@ header {
   .menu-category h2 {
     font-size: 25px;
     color:#FFD700;
-    border-bottom: 2px solid #333;
-    margin-bottom: 2px;
+    border-bottom: 2px solid #FFD700;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0 0px 10px #FFD700 ;
   }
+  .category-divider {
+    border: 1px solid gold;
+    margin: 40px 0;
+    opacity: 0.5;
+    box-shadow:10px 10px 10px  gold;
+}
+
   
   .menu-item {
     display: flex;
@@ -121,7 +131,7 @@ header {
     background-color:rgba(248, 143, 24, 0.842);
     padding: 10px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 10px #FFD700;
  
   }
   
@@ -131,6 +141,15 @@ header {
     border-radius: 8px;
     object-fit: cover;
   }
+
+  .category-divider {
+    border: 1px solid gold;
+    margin: 40px 0;
+    opacity: 0.5;
+    box-shadow:10px 10px 10px  gold;
+}
+
+  
   
   .item-details {
     flex: 1;

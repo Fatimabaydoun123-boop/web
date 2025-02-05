@@ -233,3 +233,11 @@ footer {
   
    
 }
+.header-but a{
+    color:rgb(245, 224, 219);
+    text-decoration: none;
+    font-weight: 500;
+}
+html{
+    scroll-behavior: smooth;
+}

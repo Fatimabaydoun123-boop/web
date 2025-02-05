@@ -75,8 +75,33 @@ nav ul li a {
     height: 210px;
     border-radius: 98%;
     padding: 1px;
+    
 }
 
 .about-text{
     width:1500px;
+}
+.about-image-in{
+    animation: float 1.2s ease-in-out infinite;
+}
+
+@keyframes float{
+0%{
+    transform:translateY(0px);
+}
+
+50%{
+    transform:translateY(50px) ;
+
+}
+
+100%{
+    transform:translateY(0px)
+}
+}
+.about-image :hover{
+    transform: scale(1,1);
+    transition: transform 0.1s ease;
+
+
 }

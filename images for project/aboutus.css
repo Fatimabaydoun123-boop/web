@@ -93,7 +93,7 @@ nav ul li a {
 
 50%{
     transform:translateY(50px) ;
-    box-shadow: 0 7px 50px rgb(255, 170, 0);
+    box-shadow: 0 10px 25px gold;
 }
 
 100%{

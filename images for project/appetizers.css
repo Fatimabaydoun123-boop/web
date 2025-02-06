@@ -114,6 +114,7 @@ header {
     margin-bottom: 20px;
     padding-bottom: 10px;
     box-shadow: 0 0px 10px #FFD700 ;
+    padding-left: 35%;
   }
   .category-divider {
     border: 1px solid gold;
@@ -168,7 +169,7 @@ header {
   
   .price {
     font-size: 20px;
-    color:  #470a56 ;
+    color:  red ;
     font-weight: bold;
   }
   footer {

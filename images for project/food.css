@@ -152,6 +152,11 @@ height: 100px;
    border-radius: 50PX;
    width: 400px;
    height: 400px;
+   overflow: hidden;
+   box-shadow: 0px 5px 15px rgba(252, 194, 95, 0.729);
+   transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1), 
+                        box-shadow 0.45s ease-in-out;
+
 }
 .food-div-2{
     display: flex;
@@ -241,3 +246,38 @@ footer {
 html{
     scroll-behavior: smooth;
 }
+.food-border:hover,
+.food-border:active {
+    transform: scale(1.2);
+    box-shadow: 0px 15px 30px rgba(252, 194, 95, 0.729);
+}
+.te3del{
+    width: 10px;
+    height: 5px;
+    border: none;
+    background-color: whitesmoke;
+}
+.newbut{
+    display: flex;
+margin-top:50px ;  
+margin-bottom: 30PX;
+  justify-content: center;
+}
+button{
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 0px rgba(252, 194, 95, 0.729);
+}
+button:hover ,
+button:active::after{
+    transform: scale(1.2);
+    box-shadow: 0px 8px 15px rgba(252, 194, 95, 0.729);
+
+}
+.PARA{
+    transition: color 0.3 ease;
+    user-select: none;
+}
+
+.PARA:hover {
+    color: rgba(172, 141, 64, 0.919);
+  }

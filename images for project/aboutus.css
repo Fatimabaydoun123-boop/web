@@ -3,12 +3,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #a7761be3;
-    color: rgb(150, 0, 0)(224, 47, 47);
 }
 
 header {
     text-align: center;
-    background-color: rgb(150, 0, 0)(224, 47, 47);
     color: gold;
     padding: 40px;
 }
@@ -31,7 +29,7 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration:wavy;
+    text-decoration:none;
     color:#f4fd4ccc;
     font-weight: bold;
 }
@@ -101,7 +99,7 @@ nav ul li a {
     box-shadow: 0 0 0 transparent;
 }
 }
-.about-image :hover{
+.about-image:hover{
     transform: scale(1,1);
     transition: transform 0.1s ease;
     box-shadow: 0 10px 50px gold;

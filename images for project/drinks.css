@@ -127,7 +127,9 @@ header {
     border: 1px solid gold;
     margin: 40px 0;
     opacity: 0.5;
-    box-shadow:10px 10px 10px  gold;
+    height: 1700px;
+    width: 1px;
+    box-shadow:10px 10px 60px  gold;
 }
 
 .flip-card {
